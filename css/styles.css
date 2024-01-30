@@ -253,6 +253,8 @@ p {
     min-width: 169px;
     height: 56px;
     border: none;
+    transition-property: background-color;
+    transition-duration: 200ms;
 }
 
 .class-button:hover,
@@ -355,6 +357,12 @@ p {
     margin-top: 8px;
 }
 
+.foot-social-links {
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+}
+
 .social-link {
     display: flex;
     padding: 12px;
@@ -364,10 +372,37 @@ p {
     border-radius: 50%;
 }
 
+.foot-social-link {
+    padding: 8px;
+}
+
 .social-link:hover {
     background-color: #FFF;
 }
 
+.icon-social {
+    fill: #FFF;
+}
+
 .social-link:hover .icon-social {
     fill: #4D5AE5;
+}
+
+.foot-container-fst {
+    display: block;
+}
+
+.foot-container-snd {
+    display: block;
+    margin-left: 120px;
+}
+
+.h-foot {
+    color: var(--WHITE, #FFF);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
 }
