@@ -51,6 +51,11 @@ p {
     display: flex;
 }
 
+.foot-display-container {
+    display: flex;
+    align-items: baseline;
+}
+
 .nav {
     display: flex;
     align-items: center;
@@ -424,7 +429,8 @@ p {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.foot-social-link:hover {
+.foot-social-link:hover
+.foot-social-link:focus {
     background-color: #31D0AA;
 }
 
@@ -434,14 +440,14 @@ p {
 
 .foot-container-fst {
     display: block;
+    margin-right: 120px;
 }
 
 .foot-container-snd {
     display: block;
-    margin-left: 120px;
 }
 
-.h-foot {
+.p-foot {
     color: var(--WHITE, #FFF);
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
