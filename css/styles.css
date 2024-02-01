@@ -301,15 +301,17 @@ p {
 
 .snd-sec-container {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 112px;
 }
 
 .team-list {
     display: flex;
     justify-content: center;
     gap: 24px;
+}
+
+.li-social-link {
+    gap: 24px;
+    justify-content: center;
 }
 
 .section-third {
@@ -382,6 +384,9 @@ p {
     border: 1px solid #8E8F99;
     background-color: #F4F4FD;
     margin-bottom: 8px;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
 }
 
 .social-links {
@@ -469,6 +474,6 @@ p {
     background-color: #4D5AE5;
 }
 
-.li-container-overlay:hover .overlay {
+.trd-section-item:hover .overlay {
     transform: translateY(0);
 }
