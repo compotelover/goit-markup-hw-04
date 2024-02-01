@@ -291,17 +291,17 @@ p {
 .section-first {
     background-color: rgba(46, 47, 66, 0.70);
     padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/office-real-min.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/office-real-min.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 1440px;
+    margin: 0 auto;
 }
 
 .section-second {
     background-color: white;
     padding: 120px 0;
-    max-width: 1440px;
 }
 
 .snd-sec-container {
@@ -322,7 +322,6 @@ p {
 .section-third {
     background-color: #F4F4FD;
     padding: 120px 0;
-    max-width: 1440px;
 }
 
 .li-section-third {
@@ -342,7 +341,6 @@ p {
 
 .section-fourth {
     padding: 120px 0;
-    max-width: 1440px;
 }
 
 .heading-portfolio {
