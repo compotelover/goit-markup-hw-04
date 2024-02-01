@@ -38,6 +38,7 @@ p {
 .header {
     border-bottom: 1px solid #E7E9FC;
     background-color: white;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .container {
@@ -121,6 +122,7 @@ p {
 
 .trd-section-item {
     width: calc((100% - 48px) / 3);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .trd-section-item:hover {
@@ -284,25 +286,36 @@ p {
 .section-first {
     background-color: rgba(46, 47, 66, 0.70);
     padding: 188px 0;
-    background-image: url(/images/people-office-real-min.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/office-real-min.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    max-width: 1440px;
 }
 
 .section-second {
     background-color: white;
     padding: 120px 0;
+    max-width: 1440px;
+}
+
+.snd-sec-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
 }
 
 .team-list {
     display: flex;
+    justify-content: center;
     gap: 24px;
 }
 
 .section-third {
     background-color: #F4F4FD;
     padding: 120px 0;
+    max-width: 1440px;
 }
 
 .li-section-third {
@@ -322,6 +335,7 @@ p {
 
 .section-fourth {
     padding: 120px 0;
+    max-width: 1440px;
 }
 
 .heading-portfolio {
@@ -390,9 +404,12 @@ p {
     background-color: #4D5AE5;
     border-radius: 50%;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    align-items: center;
+    justify-content: center;
 }
 
-.social-link:hover {
+.social-link:hover,
+.social-link:focus {
     background-color: #404BBF;
 }
 
@@ -406,7 +423,7 @@ p {
 }
 
 .icon-social {
-    fill: #FFF;
+    fill: #f4f4fd;
 }
 
 .foot-container-fst {
